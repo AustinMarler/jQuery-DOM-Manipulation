@@ -21,13 +21,15 @@ ul {
 }
 
 .accordion-content-show {
-    display: block;
-    transition: display 2s;
+    max-height: 100vh;
+    overflow: hidden;
+    transition: max-height 1s;
 }
 
 .accordion-content-hidden {
-    display: none;
-    transition: display 2s;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
 }
 
 h4 {
