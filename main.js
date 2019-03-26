@@ -8,6 +8,7 @@ $(document).ready(function(){
             content.addClass('accordion-content-hidden');
             content.removeClass('accordion-content-show');
         } else {
+            $('.accordion-content').removeClass('accordion-content-show');
             $('.accordion-content').addClass('accordion-content-hidden');
             content.addClass('accordion-content-show');
             content.removeClass('accordion-content-hidden');
