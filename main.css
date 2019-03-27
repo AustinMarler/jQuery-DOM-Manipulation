@@ -8,9 +8,8 @@ Html {
 
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://yt3.ggpht.com/a-/AAuE7mC75lyDOGkH_0L4_ZR6F4bfGviFjsMZIGa22w=s900-mo-c-c0xffffffff-rj-k-no);
-    background-position: top left;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -64,3 +63,64 @@ p {
     padding: 0 20px;
     font-weight: 300;
 }
+
+/* #carousel {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+}
+
+.change-image-button {
+    width: 72px;
+    height: 128px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.change-image-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.change-image-button p {
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.change-image-button p i {
+    line-height: 128px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#prev-image-button {
+    position: absolute;
+    top: 296px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#next-image-button {
+    position: absolute;
+    top: 296px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#carousel-image-subtitle {
+    position: absolute;
+    top: 669px;
+    right: 0;
+}
+
+#carousel-image-subtitle p {
+    position: right bottom;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+span {
+    text-decoration: underline;
+} */
